@@ -1,4 +1,3 @@
-# listener.py (Renamed from server.py)
 import socket
 import struct
 import os
@@ -48,4 +47,5 @@ if __name__ == "__main__":
     parser.add_argument("--dir", type=str, default="./loot", help="Directory to save files")
     args = parser.parse_args()
     
+
     start_server('0.0.0.0', args.port, args.dir)
