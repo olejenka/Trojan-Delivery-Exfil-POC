@@ -75,3 +75,5 @@ python3 server.py --port 5001 --dir ./loot
 ├── SignedApp.exe       # (Placeholder) The legitimate decoy application
 └── Payload.exe         # (Placeholder) The actual payload to be executed
 ```
+## License
+This project is open-source and available under the MIT License.
